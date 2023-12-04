@@ -3,7 +3,7 @@ const stripe = require('stripe')(process.env.STRIPE_SK);
 import {buffer} from 'micro';
 import {Order} from "@/models/Order";
 
-const endpointSecret = "whsec_fd0ed8085c70043e61b64e497833b2bae1ffb8d659836bf44553630d0e989411";
+const endpointSecret = "we_1OJc3gSBhXtD52TSusEyodDq";
 
 export default async function handler(req,res) {
   await mongooseConnect();
